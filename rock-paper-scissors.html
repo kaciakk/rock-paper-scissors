@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>RPS-GAME</title>
+    <link rel="stylesheet" href="styles/rock-paper-scissors.css">
+    <link rel="icon" href="images\star.png">
+    
+
+  </head>
+  <body>
+    <div class="navbar">
+    <p>Rock Paper Scissors</p>
+  </div>
+
+  <div class="counter">
+    <p class="js-result "></p>
+    <p class="js-score  "></p>
+</div>
+
+
+  <div class="game">
+    <button class="button-click-pointer" onclick="
+    playGame('rock')">
+      <img src="images\fist.png" class="icon">
+   </button>
+    <button class="button-click-pointer" onclick="
+    playGame('paper');">
+      <img src="images\hand.png" class="icon">
+    </button>
+    <button class="button-click-pointer" onclick="
+    playGame('scissors');">
+      <img src="images\victory.png" class="icon">
+    </button>
+  </div>
+
+  <div class="reset-button">
+    <button class="button-click-pointer" onclick="
+    score.wins = 0;
+    score.losses = 0;
+    score.ties = 0;
+    localStorage.removeItem('score');
+    updateScoreElement();
+    document.querySelector('.js-result').textContent = '';
+
+    const resultElement = document.querySelector('.js-result');
+
+    resultElement.classList.remove('win', 'lose', 'tie');
+    resultElement.classList.add('default-color');
+
+    ">RESET</button></div>
+    
+    <script src="scripts/rock-paper-scissors.js"></script>
+  </body>
+</html>
