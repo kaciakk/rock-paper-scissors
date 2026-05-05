@@ -1,34 +1,67 @@
-# Rock Paper Scissors Game
+# ✊✋✌️ Rock Paper Scissors Game
 
-Welcome to the Rock Paper Scissors Game!
+A simple and interactive **Rock Paper Scissors** game built with **HTML, CSS and JavaScript**.
 
-![ezgif com-gif-maker (1)](https://github.com/kaciakk/rock-paper-scissors/assets/95936444/8d9d7b79-d160-4388-a879-4df09bb7bbd7)
+---
 
-## Instructions
+## 🎮 Live Demo
 
-1. Click on one of the three options: Rock, Paper, or Scissors.
-2. The computer will randomly select its choice.
-3. The game will determine the winner based on the rules: Rock beats Scissors, Scissors beats Paper, and Paper beats Rock.
-4. Your wins, losses, and ties are recorded.
+🔗 Live: https://rock-paper-scissors-kaciak.netlify.app/
 
-## How to Play
+[![Live Demo](https://img.shields.io/badge/demo-live-green)](https://your-live-link.netlify.app/)
 
-- Click on one of the three buttons to make your choice.
-- The game will reveal the computer's choice and announce the winner.
-- Your wins, losses, and ties will be recorded.
+---
 
+## 📸 Preview
 
-## Highscore
+<p align="center">
+  <img src="https://github.com/kaciakk/rock-paper-scissors/assets/95936444/8d9d7b79-d160-4388-a879-4df09bb7bbd7" width="800"/>
+</p>
 
-Your highscore is saved locally, allowing you to compete with yourself for the best score.
+---
 
-## Technologies Used
+## 📌 About The Project
 
-- HTML
-- CSS
-- JavaScript
+This project is a classic **Rock Paper Scissors** browser game.
 
-Feel free to fork this project and make your own modifications. Enjoy the game!
+The player competes against the computer, which randomly selects its move.  
+The game determines the winner based on standard rules and tracks results.
 
+---
 
+## ✨ Features
 
+- ✊ Rock, Paper, Scissors gameplay
+- 🤖 Random computer choice
+- 🏆 Winner detection
+- 📊 Wins, losses and ties tracking
+- 💾 Highscore saved in localStorage
+- ⚡ Dynamic UI updates
+- 🎮 Simple and intuitive gameplay
+
+---
+
+## 🕹 How To Play
+
+1. Click one of the three buttons: **Rock**, **Paper**, or **Scissors**
+2. The computer will randomly choose its move
+3. The result will be displayed instantly
+4. Your stats (wins, losses, ties) will update automatically
+
+---
+
+## 🛠 Tech Stack
+
+- **HTML5**
+- **CSS3**
+- **JavaScript**
+
+---
+
+## ⚙️ Getting Started
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/kaciakk/rock-paper-scissors.git
+cd rock-paper-scissors
