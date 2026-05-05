@@ -8,8 +8,6 @@ A simple and interactive **Rock Paper Scissors** game built with **HTML, CSS and
 
 🔗 Live: https://rock-paper-scissors-kaciak.netlify.app/
 
-[![Live Demo](https://img.shields.io/badge/demo-live-green)](https://your-live-link.netlify.app/)
-
 ---
 
 ## 📸 Preview
